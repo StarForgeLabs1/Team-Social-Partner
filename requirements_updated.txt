@@ -1,0 +1,51 @@
+# 核心框架
+fastapi==0.104.1
+uvicorn[standard]==0.24.0
+
+# 数据库
+asyncpg==0.29.0
+sqlalchemy==2.0.23
+
+# 认证和安全
+python-jose[cryptography]==3.3.0
+passlib[bcrypt]==1.7.4
+python-multipart==0.0.6
+
+# 数据验证
+pydantic==2.7.1
+pydantic-settings==2.1.0
+
+# HTTP客户端
+httpx==0.25.2
+aiohttp==3.9.1
+
+# 工具库
+python-dotenv==1.0.0
+python-dateutil==2.8.2
+Pillow==10.1.0
+
+# 异步任务
+celery==5.3.4
+redis==5.0.1
+
+# 日志和监控
+structlog==23.2.0
+sentry-sdk[fastapi]==1.38.0
+
+# 社交平台SDK
+tweepy==4.14.0
+facebook-sdk==3.1.0
+instabot==0.117.0
+
+# 文件处理
+openpyxl==3.1.2
+pandas==2.1.4
+
+# 开发和测试
+pytest==7.4.3
+pytest-asyncio==0.21.1
+black==23.11.0
+flake8==6.1.0
+
+# 部署
+gunicorn==21.2.0
